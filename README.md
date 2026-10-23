@@ -4,37 +4,22 @@ Repository for code, pre-class workbook, assignments for my Minerva university c
 
 ## Structure
 
-- `Class_Sessions/` - concept explanations, derivations, experiments, visualizations, and reflections.
+- `Class_Sessions` - concept explanations, derivations, experiments, visualizations, and reflections.
 - other folders are for assignments (one folder/assignment)
 
 ## Current topics
 
 ### Session 1 — Introduction to Machine Learning
-
-- representation, probability, optimization, and generalization,
-- Iris tabular data,
-- MNIST image vectors,
-- probability and Bayes' rule.
+Students are introduced to different machine learning concepts in this class and we cover basic course expectations, class culture, and logistics.
 
 ### Session 2 — Linear and Logistic Regression
-
-- linear regression,
-- logistic regression,
-- loss functions,
-- sensitivity / recall,
-- implementing regression models from scratch.
+This class introduces the idea of tensors that describe physical properties and shows how they can be used with functions to perform classification and regression.
 
 ### Session 3 — Multivariate Linear Regression
-
-- matrix representation of regression,
-- Titanic fare prediction,
-- ordinary least squares,
-- normal equations,
-- residual geometry and SSR.
+This class introduces the concept of collinearity: what it means for vectors to "point" in the same direction. We'll explore how to detect this property with linear algebra and how it's used to make regression predictions. This is a code-focused lesson. We'll review the PCW for fitting a regression model to the Titantic data, and we'll introduce the concept of a rotation in a deep-dive python notebook.
 
 ### Session 4 — Decision Trees
-
-The existing Session 4 notebook is stored at:
+The Session 4 notebook is stored at: 'Class_Sessions'
 
 ### Session 5 — Naive Bayes
 
