@@ -1,11 +1,11 @@
 # CS156 - Finding Patterns in Data with Machine Learning
 
-A learning repository for machine-learning concepts, mathematical foundations, experiments, and reusable implementations studied in CS156 at Minerva University.
+Repository for code, pre-class workbook, assignments for my Minerva university course "CS156 - Finding Patterns in Data with Machine Learning"
 
 ## Structure
 
-- `notebooks/` - concept explanations, derivations, experiments, visualizations, and reflections.
-- `src/` - reusable Python implementations extracted from the notebooks.
+- `Class_Sessions/` - concept explanations, derivations, experiments, visualizations, and reflections.
+- other folders are for assignments (one folder/assignment)
 
 ## Current topics
 
