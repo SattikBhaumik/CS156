@@ -19,7 +19,7 @@ This class introduces the idea of tensors that describe physical properties and 
 This class introduces the concept of collinearity: what it means for vectors to "point" in the same direction. We'll explore how to detect this property with linear algebra and how it's used to make regression predictions. This is a code-focused lesson. We'll review the PCW for fitting a regression model to the Titantic data, and we'll introduce the concept of a rotation in a deep-dive python notebook.
 
 ### Session 4 — Decision Trees
-The Session 4 notebook is stored at: `Class_Sessions/`
+The Session 4 notebook is stored at: `Class_Sessions`
 
 ### Session 5 — Naive Bayes
 
