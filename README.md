@@ -44,4 +44,4 @@ This lesson introduces a new trick for linear regression models: using basis fun
 This session includes discussion on column space, null space, SVCs (hard-margin, soft-margin, dual-decision cases with equations),  and data transformation into a new feature space using kernel trick (linear, homogenous quadratic, RBF).
 
 ## Notes: 
-I have uploaded each `.ipynb` file directly from Colab for ease of user use-case. You can directly click "Open with Colab" and explore the code.
+I have uploaded each `.ipynb` file directly from Colab for ease of user use-case. You can directly click `Open with Colab` and explore the code.
