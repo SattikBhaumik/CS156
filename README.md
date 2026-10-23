@@ -1,9 +1,7 @@
 # CS156 - Finding Patterns in Data with Machine Learning
-
 Repository for code, pre-class workbook, assignments for my Minerva university course "CS156 - Finding Patterns in Data with Machine Learning"
 
 ## Structure
-
 - `Class_Sessions` - concept explanations, derivations, experiments, visualizations, and reflections.
 - other folders are for assignments (one folder/assignment)
 
@@ -22,59 +20,28 @@ This class introduces the concept of collinearity: what it means for vectors to 
 The Session 4 notebook is stored at: `Class_Sessions`
 
 ### Session 5 — Naive Bayes
-
-- joint, marginal, and conditional probability,
-- conditional independence,
-- TF-IDF,
-- Multinomial Naive Bayes,
-- learned parameters,
-- linear decision boundaries,
-- confusion matrices,
-- feature probabilities and Laplace smoothing.
+The purpose of this lesson is to introduce the Naive bayes model, and to provide a framework for students to generate their own explanations. It should reinforce the previous lessons by drawing connections between how partitioned vector spaces (Trees) relate to Bayesian probability, and how joint distributions can be compactly calculated with matrix multiplications (linear algebra)
 
 ### Session 6 — Logistic Regression and Maximum Likelihood Estimation
-
-- Gaussian-MLE preclass review,
-- logistic-regression parameters and Bernoulli likelihood,
-- log-likelihood of synthetic *Mujhe Chahiye Bollywood* data,
-- comparing proposed parameter values and deriving the log-likelihood gradient,
-- optional numerical MLE and 95% probability threshold.
+This session includes logistic-regression, Gaussian-MLE, Bernoulli likelihood, deriving the log-likelihood gradient, numerical MLE and probability threshold.
 
 ### Session 7 — Feed-Forward Neural Networks and Perceptrons
-
-- MNIST MLP (784 → 128 → 64 → 10): matrix dimensions, training, validation, test metrics and confusion matrix,
-- single-layer Sonar perceptron trained from scratch with stratified 3-fold cross-validation,
-- Fashion-MNIST binary top-versus-trouser experiment with optional PCA and learning curves.
+This class (and the next) introduce feed-forward neural networks. After class students will be able to draw basic neural network diagrams, write nested functions corresponding to FFNN processing, describe neural networks with matrices, and run the forward pass. While the next class focuses more substantially on back propagation and learning, this class introduces them as concepts.
 
 ### Session 8 — Gradients: Multivariate Derivatives
-
-- sigmoid derivatives and chain rule,
-- manual scalar backpropagation through a computation graph,
-- gradients of the dot product `w^T x`,
-- vectorized backward passes,
-- automatic differentiation with JAX,
-- gradient-descent updates on model weights.
+This class continues the work on neural networks by introducing the concept of gradients (a vector of partial derivatives) and the_ Jacobian _(a matrix of partial derivatives) and applying these concepts to backpropogation of errors in a neural network.
 
 ### Session 9 — Metrics and Cross-Validation
+This session includes stratified 80/20 train/test splits, nonlinear SVMs on concentric-circle data compared with logistic regression, ROC curves, and ROC-AUC, grid search over SVM `gamma` and `C`, final evaluation on an untouched test set.
 
-- stratified 80/20 train/test splits,
-- logistic regression versus nonlinear SVMs on concentric-circle data,
-- classifier probability surfaces,
-- ROC curves, threshold tradeoffs, and ROC-AUC,
-- train/validation/test separation,
-- grid search over SVM `gamma` and `C`,
-- final evaluation on an untouched test set.
+### Session 11 - Data Ethics and the Bias-Variance Trade off
+This session includes discussion on bias, variance, the trade-off to find a balanced model, and ethics in ML.
+
+### Session 12 - Basis Functions 1: Functions as Parameters
+This lesson introduces a new trick for linear regression models: using basis functions as parameters. This allows linear regression models to fit non-linear data.
 
 ### Session 13 — Support Vector Classifiers and the Kernel Trick
-
-- nullspace, representer theorem, and SVC soft-margin/dual equations;
-- linear, homogeneous quadratic, and RBF kernels and feature maps;
-- linear and RBF SVC functions from the first PCW question;
-- kernel comparisons on two-moons data;
-- optional financial transaction classification (CSV not included);
-- Yosemite Village NOAA 2011–2016 month prediction, with recorded CV/test results;
-- supplementary SVR versus linear/RBF-feature regression.
-
+This session includes discussion on column space, null space, SVCs (hard-margin, soft-margin, dual-decision cases with equations),  and data transformation into a new feature space using kernel trick (linear, homogenous quadratic, RBF).
 
 ## Notes: 
 I have uploaded each .ipynb file directly from Colab for ease of user use-case. You can directly click "Open with Colab" and explore the code.
