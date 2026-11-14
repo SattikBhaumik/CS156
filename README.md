@@ -47,19 +47,19 @@ This session includes discussion on column space, null space, SVCs (hard-margin,
 This session includes discussion on column space, null space, SVCs (hard-margin, soft-margin, dual-decision cases with equations),  and data transformation into a new feature space using kernel trick (linear, homogenous quadratic, RBF).
 
 ### Session 15 — Basis Functions 2: Ridge and Lasso
-This session includes discussion on column space, null space, SVCs (hard-margin, soft-margin, dual-decision cases with equations),  and data transformation into a new feature space using kernel trick (linear, homogenous quadratic, RBF).
+This session focuses on Lasso (L1) and Ridge (L2), coefficient shrinkage and feature selection, loss-surface contour plots for NLL and their weighted sum, unregularized logistic regression vs. RidgeClassifier, coefficient variance and the bias–variance tradeoff.
 
 ### Session 16 — Dimensionality reduction 1: PCA
-This session includes discussion on column space, null space, SVCs (hard-margin, soft-margin, dual-decision cases with equations),  and data transformation into a new feature space using kernel trick (linear, homogenous quadratic, RBF).
+This session focuses on a new method for dimensionality reduction: principal component analysis. The goal of the pre-class work is to A) understand how PCA works in vector spaces, B) be able to factor matrices to find the new basis vectors, and C) be able to convert complex data types (in this case, images) to arrays so you can factor them with scikitlearn.
 
 ### Session 17 — Projections 2: Filters, Convolutions, & Transforms
-This session includes discussion on column space, null space, SVCs (hard-margin, soft-margin, dual-decision cases with equations),  and data transformation into a new feature space using kernel trick (linear, homogenous quadratic, RBF).
+This session introduces convolution vs. cross-correlation, feature maps, ReLU and pooling, discrete 2D kernels, stride, padding, dilation, multichannel RGB filtering and output shapes, filters for sharpening and horizontal/vertical Sobel edge detection.
 
 ### Session 18 — Dimensionality Reduction 2: Autoencoders
-This session includes discussion on column space, null space, SVCs (hard-margin, soft-margin, dual-decision cases with equations),  and data transformation into a new feature space using kernel trick (linear, homogenous quadratic, RBF).
+This session introduces encoder–decoder networks, self-supervised representation learning, nonlinear dimensionality reduction versus PCA, and limitations of reconstruction-based features.
 
 ### Session 19 — Time Series 2: Recurrent neural networks
-This session includes discussion on column space, null space, SVCs (hard-margin, soft-margin, dual-decision cases with equations),  and data transformation into a new feature space using kernel trick (linear, homogenous quadratic, RBF).
+This session introduces sequential data and recurrence including hidden states, same weight used across layers, RNN with variable input/state/output shapes.
 
 ## Notes: 
 I have uploaded each `.ipynb` file directly from Colab for ease of user use-case. You can directly click on `Open In Colab` and explore the code in Google Colaboratory.
