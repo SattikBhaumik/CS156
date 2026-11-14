@@ -43,5 +43,23 @@ This lesson introduces a new trick for linear regression models: using basis fun
 ### Session 13 — Support Vector Classifiers and the Kernel Trick
 This session includes discussion on column space, null space, SVCs (hard-margin, soft-margin, dual-decision cases with equations),  and data transformation into a new feature space using kernel trick (linear, homogenous quadratic, RBF).
 
+### Session 14 — Trees 2: XGBoost
+This session includes discussion on column space, null space, SVCs (hard-margin, soft-margin, dual-decision cases with equations),  and data transformation into a new feature space using kernel trick (linear, homogenous quadratic, RBF).
+
+### Session 15 — Basis Functions 2: Ridge and Lasso
+This session includes discussion on column space, null space, SVCs (hard-margin, soft-margin, dual-decision cases with equations),  and data transformation into a new feature space using kernel trick (linear, homogenous quadratic, RBF).
+
+### Session 16 — Dimensionality reduction 1: PCA
+This session includes discussion on column space, null space, SVCs (hard-margin, soft-margin, dual-decision cases with equations),  and data transformation into a new feature space using kernel trick (linear, homogenous quadratic, RBF).
+
+### Session 17 — Projections 2: Filters, Convolutions, & Transforms
+This session includes discussion on column space, null space, SVCs (hard-margin, soft-margin, dual-decision cases with equations),  and data transformation into a new feature space using kernel trick (linear, homogenous quadratic, RBF).
+
+### Session 18 — Dimensionality Reduction 2: Autoencoders
+This session includes discussion on column space, null space, SVCs (hard-margin, soft-margin, dual-decision cases with equations),  and data transformation into a new feature space using kernel trick (linear, homogenous quadratic, RBF).
+
+### Session 19 — Time Series 2: Recurrent neural networks
+This session includes discussion on column space, null space, SVCs (hard-margin, soft-margin, dual-decision cases with equations),  and data transformation into a new feature space using kernel trick (linear, homogenous quadratic, RBF).
+
 ## Notes: 
 I have uploaded each `.ipynb` file directly from Colab for ease of user use-case. You can directly click on `Open In Colab` and explore the code in Google Colaboratory.
